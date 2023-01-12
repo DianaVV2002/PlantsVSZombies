@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1Scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalEnemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3Scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2Scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="YouWinScene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="YouLoseScene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalEnemy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="YouWinScene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="YouLoseScene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\plantPlayer.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\zombie.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\grass.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\wall.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\deadPlayer.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\bullet.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\health.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\easy.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\exit.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\hard.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\medium.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\finalZombie.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\backToMainMenu.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\nextLevel2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\winner.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\replay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\loser.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\plantsvs.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{46c0120e-79ea-41af-8539-420efffde2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{00fc70bd-5279-4493-a191-009f2298dd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{56485f79-b858-4702-8df0-9d493aa46e70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\Map1.TXT">
+      <Filter>assets</Filter>
+    </Text>
+    <Text Include="assets\Levels.TXT">
+      <Filter>assets</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
